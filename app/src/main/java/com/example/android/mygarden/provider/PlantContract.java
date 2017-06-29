@@ -38,7 +38,7 @@ public class PlantContract {
         // TaskEntry content URI = base content URI + path
         public static final Uri CONTENT_URI =
                 BASE_CONTENT_URI.buildUpon().appendPath(PATH_PLANTS).build();
-
+        public static final String COLUMN_ID = "plantId";
         public static final String TABLE_NAME = "plants";
         public static final String COLUMN_PLANT_TYPE = "plantType";
         public static final String COLUMN_CREATION_TIME = "createdAt";
